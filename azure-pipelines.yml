@@ -4,6 +4,7 @@
 
 trigger:
 - release*
+pr: none 
 
 resources:
 - repo: self
