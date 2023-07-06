@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 RUN apt-get update -y
 RUN apt-get install -y python3.10
 RUN apt-get install -y python3-pip python2-dev build-essential
